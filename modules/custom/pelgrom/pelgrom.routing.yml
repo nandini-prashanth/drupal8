@@ -1,0 +1,8 @@
+WelcomeMsg.form:
+  path: '/admin/add/welcome-message'
+  defaults:
+    _title: 'Add welcome message'
+    _form: '\Drupal\pelgrom\Form\WelcomeMsgForm'
+  requirements:
+    _permission: 'access content'
+
